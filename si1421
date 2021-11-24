@@ -88,6 +88,7 @@ function Aiming.UpdateFOV()
     circle.NumSides = Aiming.FOVSides
     circle.Color = Aiming.FOVColour
     circle.Filled = Aiming.Filled
+    circle.Transparency = Aiming.Transparency
 
     -- // Return circle
     return circle
